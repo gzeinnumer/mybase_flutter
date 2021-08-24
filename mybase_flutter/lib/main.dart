@@ -81,17 +81,17 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // Text(
-            //   'You have pushed the button this many times:',
-            // ),
-            // Text(
-            //   '$_counter',
-            //   style: Theme.of(context).textTheme.headline4,
-            // ),
-            // BtnSuc(
-            //   text: "Success",
-            //   onPressed: _incrementCounter,
-            // ),
+            Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            BtnSuc(
+              text: "Success",
+              onPressed: _incrementCounter,
+            ),
             // BtnSec(
             //   text: "Secondary",
             //   onPressed: _incrementCounter,
